@@ -11,7 +11,6 @@ lazy val root = (project in file("."))
     name := "chisel-32b-regadder",
     libraryDependencies ++= Seq(
       "org.chipsalliance" %% "chisel" % chiselVersion,
-      
       "org.scalatest" %% "scalatest" % "3.2.19" % "test",
     ),
     scalacOptions ++= Seq(
