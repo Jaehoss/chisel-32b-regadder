@@ -19,6 +19,7 @@ lazy val root = (project in file("."))
       "-feature",
       "-Xcheckinit",
       "-Ymacro-annotations",
+      "-DemitVcd",
     ),
-    addCompilerPlugin("org.chipsalliance" % "chisel-plugin" % chiselVersion cross CrossVersion.full),
+    addCompilerPlugin("org.chipsalliance" % "chisel-plugin" % chiselVersion cross CrossVersion.full)
   )

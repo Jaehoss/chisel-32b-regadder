@@ -29,3 +29,4 @@ class RegisterSpec extends AnyFlatSpec with ChiselSim {
     }
   }
 }
+
